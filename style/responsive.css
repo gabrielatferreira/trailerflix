@@ -1,0 +1,50 @@
+@media screen and (max-width: 740px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    header .logo {
+        font-size: 40px;
+    }
+
+    header .logo img {
+        display: none;
+    }
+
+    .filme-principal .container {
+        width: 80%;
+    }
+
+    .filme-principal .descricao {
+        margin-bottom: 20px;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .botao {
+        margin-top: 10px;
+        width: 300px;
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    .titulo-carrosel {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .filme-principal {
+        height: 600px;
+    }
+}
